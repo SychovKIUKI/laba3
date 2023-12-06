@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="style.css">
+		<title>LB3</title>
+	<body>
+        
+		<div class="container">
+			<div class="button-group">
+            <button onclick="addRow(6,1)">Додати ряд</button>
+            <button onclick="deleteRow()">Видалити ряд</button>
+            <button onclick="getPerformance()">Розрахувати оцінки</button>
+			</div>
+			<table class="table">
+				<tr>
+					<th class="fixed-cell">Студенти</th>
+					<th class="fixed-cell">ITex</th>
+					<th class="fixed-cell">ФВ</th>
+					<th class="fixed-cell">АК</th>
+					<th class="fixed-cell">СПЗ</th>
+					<th class="fixed-cell">КСХ</th>
+
+				</tr>
+				<tr>
+                    <th>Підмогильний</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>5</td>
+					<td>4</td>
+					<td>2</td>
+                </tr>
+                <tr>
+                    <th>Шевченко</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>5</td>
+					<td>4</td>
+					<td>4</td>
+                </tr>
+				<tr>
+                    <th>Костенко</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+					<td>5</td>
+					<td>5</td>
+                </tr>
+			</table>
+        <div id="displayInfo"></div>
+		</div>
+        <script src="script.js"></script>
+	</body>
+</html>
